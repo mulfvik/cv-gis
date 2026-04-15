@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mikael Ulfvik - GIS Developer & Digital Twin Specialist</title>
+    <meta name="description" content="Fullstack GIS Developer specializing in 3D city digital twins, Cesium, Unreal Engine, and web mapping solutions.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 3D Background Canvas -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">MU</a>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Mikael Ulfvik</h1>
+            <h2 class="hero-subtitle">Fullstack GIS Developer & Digital Twin Specialist</h2>
+            <p class="hero-description">Building immersive 3D city digital twins and geospatial solutions</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="https://github.com/mulfvik" target="_blank" class="btn btn-secondary">GitHub</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>GIS Developer with <strong>14+ years of experience</strong> specializing in fullstack GIS development and 3D city digital twin solutions. Currently working at Haninge kommun, I focus on developing cutting-edge geospatial applications using modern technologies.</p>
+                    <p>My expertise spans from traditional GIS development to advanced 3D visualization using <strong>Cesium</strong>, <strong>Unreal Engine</strong>, and web-based mapping frameworks. I'm passionate about creating interactive, performant solutions that bridge the gap between geospatial data and user experience.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">14+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">30+</span>
+                            <span class="stat-label">GitHub Repos</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">3D</span>
+                            <span class="stat-label">Digital Twins</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">October 2020 - Present</span>
+                        <h3>GIS-utvecklare (GIS Developer)</h3>
+                        <h4>Haninge kommun</h4>
+                        <p>Haninge, Stockholm County, Sweden</p>
+                        <ul>
+                            <li>Developing 3D city digital twin solutions</li>
+                            <li>Fullstack GIS application development</li>
+                            <li>Integration of Cesium and Unreal Engine for 3D visualization</li>
+                            <li>Web mapping solutions using Origo and modern frameworks</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">April 2016 - October 2020</span>
+                        <h3>GIS-ingenjör (GIS Engineer)</h3>
+                        <h4>Strängnäs kommun</h4>
+                        <p>4 years 7 months</p>
+                        <ul>
+                            <li>GIS infrastructure development and maintenance</li>
+                            <li>Survey and GNSS data processing</li>
+                            <li>Cartographic production and analysis</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">November 2011 - April 2016</span>
+                        <h3>GIS-ingenjör (GIS Engineer)</h3>
+                        <h4>Eskilstuna kommun</h4>
+                        <p>4 years 6 months</p>
+                        <ul>
+                            <li>GIS system administration and development</li>
+                            <li>UAV data acquisition and processing</li>
+                            <li>Geospatial data management</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>3D & Visualization</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">Cesium.js</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Unreal Engine (C++)</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Three.js</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">3D Tiles</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Web Development</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">JavaScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Origo Map Framework</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">HTML/CSS</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Python</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>GIS & Backend</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">GeoServer</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">PostGIS</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">QGIS/PyQGIS</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Go</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="70"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Survey & Data</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">GNSS & Total Station</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">UAV/Drone Mapping</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Cartography</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Terrain Processing</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">🎮</div>
+                    <h3>OpenUI for Cesium for Unreal Engine</h3>
+                    <p>Open UI solution for integrating Cesium geospatial 3D platform with Unreal Engine, enabling interactive 3D city digital twins.</p>
+                    <div class="project-tags">
+                        <span class="tag">Unreal Engine</span>
+                        <span class="tag">Cesium</span>
+                        <span class="tag">C++</span>
+                    </div>
+                    <a href="https://github.com/mulfvik/OpenUIforCforUE" target="_blank" class="project-link">
+                        View on GitHub →
+                    </a>
+                    <div class="project-stars">⭐ 9 stars</div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">🗺️</div>
+                    <h3>Origo Web Mapping</h3>
+                    <p>Contributions to Origo, a modern web mapping framework for creating interactive map applications with extensive customization.</p>
+                    <div class="project-tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Web Mapping</span>
+                        <span class="tag">OpenLayers</span>
+                    </div>
+                    <a href="https://github.com/mulfvik/origo" target="_blank" class="project-link">
+                        View on GitHub →
+                    </a>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">🏔️</div>
+                    <h3>Cesium Terrain Server</h3>
+                    <p>Server implementation for serving filesystem-based terrain tilesets for Cesium.js 3D globe visualization.</p>
+                    <div class="project-tags">
+                        <span class="tag">Go</span>
+                        <span class="tag">Cesium</span>
+                        <span class="tag">Terrain</span>
+                    </div>
+                    <a href="https://github.com/mulfvik/cesium-terrain-server" target="_blank" class="project-link">
+                        View on GitHub →
+                    </a>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">🌍</div>
+                    <h3>GeoServer Terrain Provider</h3>
+                    <p>Plugin enabling GeoServer to serve as a terrain provider for Cesium, integrating enterprise GIS with 3D visualization.</p>
+                    <div class="project-tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">GeoServer</span>
+                        <span class="tag">Cesium</span>
+                    </div>
+                    <a href="https://github.com/mulfvik/Cesium-GeoserverTerrainProvider" target="_blank" class="project-link">
+                        View on GitHub →
+                    </a>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">🔧</div>
+                    <h3>3D Tiles Tools</h3>
+                    <p>Tools and utilities for working with 3D Tiles format, essential for city digital twin development.</p>
+                    <div class="project-tags">
+                        <span class="tag">3D Tiles</span>
+                        <span class="tag">Tools</span>
+                    </div>
+                    <a href="https://github.com/mulfvik" target="_blank" class="project-link">
+                        View on GitHub →
+                    </a>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">🏙️</div>
+                    <h3>3D City Database Web Map</h3>
+                    <p>Web-based 3D city model visualization using 3DCityDB for managing and visualizing semantic 3D city models.</p>
+                    <div class="project-tags">
+                        <span class="tag">3D City</span>
+                        <span class="tag">CityGML</span>
+                        <span class="tag">Cesium</span>
+                    </div>
+                    <a href="https://github.com/mulfvik" target="_blank" class="project-link">
+                        View on GitHub →
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications & Education</h2>
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <div class="cert-icon">🎓</div>
+                    <h3>Unreal Engine 4 - C++ Programming</h3>
+                    <p>Advanced certification in UE4 C++ development for creating interactive 3D applications.</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">📚</div>
+                    <h3>GIS/GIT</h3>
+                    <p>Ocellus Information Systems</p>
+                    <span class="cert-year">2011 - 2012</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p class="contact-text">Interested in collaborating on GIS projects or 3D digital twin solutions? Let's connect!</p>
+                <div class="contact-links">
+                    <a href="https://github.com/mulfvik" target="_blank" class="contact-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                        GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/mikael-ulfvik-9489133b" target="_blank" class="contact-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                        </svg>
+                        LinkedIn
+                    </a>
+                </div>
+                <div class="contact-info">
+                    <p><strong>Location:</strong> Stockholm County, Sweden</p>
+                    <p><strong>Languages:</strong> Swedish (Native), English (Professional)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Mikael Ulfvik. Built with passion for GIS and 3D visualization.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="js/three-background.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
